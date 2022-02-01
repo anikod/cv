@@ -1,0 +1,137 @@
+.transMenu {
+ position:absolute ; 
+ overflow:hidden; 
+ left:-1000px; 
+ top:-1000px; 
+}
+.transMenu .content {
+ position:absolute  ; 
+}
+.transMenu .items {
+ border: 1px dashed #FFFFFF ; 
+ position:relative ; 
+ left:0px; top:0px; 
+ z-index:2; 
+}
+.transMenu  td
+{
+ padding: 4px 9px 5px 9px  !important;  
+ font-size: 10px !important ; 
+ font-family: Verdana, Arial, Helvetica, sans-serif !important ; 
+ text-align: left !important ; 
+ font-weight: normal !important ; 
+ color: #cbdadd !important ; 
+} 
+#subwrap 
+{ 
+ text-align: left ; 
+}
+.transMenu  .item.hover td
+{ 
+ color: #FFFFFF !important ; 
+}
+.transMenu .item { 
+ text-decoration: none ; 
+ cursor:pointer; 
+ cursor:hand; 
+}
+.transMenu .background {
+ background-image:none; 
+ position:absolute ; 
+ left:0px; top:0px; 
+ z-index:1; 
+ opacity:0.75; 
+ filter:alpha(opacity=75) 
+}
+.transMenu .shadowRight { 
+ position:absolute ; 
+ z-index:3; 
+ top:3px; width:2px; 
+ opacity:0.75; 
+ filter:alpha(opacity=75)
+}
+.transMenu .shadowBottom { 
+ position:absolute ; 
+ z-index:1; 
+ left:3px; height:2px; 
+ opacity:0.75; 
+ filter:alpha(opacity=75)
+}
+.transMenu .item.hover {
+background-image:none; 
+background-color: #11365c !important ; 
+}
+.transMenu .item img { 
+ margin-left:10px !important ; 
+}
+table.swmenu {
+ top: 0px; 
+ left: 0px; 
+ position:relative ; 
+ margin:0px !important ; 
+ border: 0px none #FFFFFF ; 
+ z-index: 1; 
+}
+table.swmenu a{
+ margin:0px !important ; 
+ padding: 12px 25px 13px 25px  !important ; 
+ display:block !important; 
+ position:relative !important ; 
+}
+div.swmenu a,
+div.swmenu a:visited,
+div.swmenu a:link {
+ font-size: 12px !important ; 
+ font-family: Verdana, Arial, Helvetica, sans-serif !important ; 
+ text-align: center !important ; 
+ font-weight: normal !important ; 
+ color: #FFFFFF !important ; 
+ text-decoration: none !important ; 
+ margin-bottom:0px !important ; 
+ display:block !important; 
+ white-space:nowrap ; 
+}
+div.swmenu td {
+ border-bottom: 1px none #FFFFFF ; 
+ border-top: 1px none #FFFFFF ; 
+ border-left: 1px none #FFFFFF ; 
+background-image:none; 
+
+} 
+div.swmenu td.last {
+ border-right: 1px none #FFFFFF ; 
+} 
+#trans-active a{
+ color: #cbdadd !important ; 
+background-image:none; background-color: #11365c !important ; 
+} 
+#swmenu a.hover   { 
+background-image:none; color: #cbdadd !important ; 
+ background-color: #11365c !important ; 
+}
+#swmenu span {
+ display:none; 
+}
+
+
+/*
+     FILE ARCHIVED ON 03:43:32 Aug 13, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:22:52 Jan 31, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 88.414
+  exclusion.robots: 0.077
+  exclusion.robots.policy: 0.071
+  cdx.remote: 0.055
+  esindex: 0.009
+  LoadShardBlock: 65.812 (3)
+  PetaboxLoader3.datanode: 293.705 (4)
+  CDXLines.iter: 14.981 (3)
+  load_resource: 1510.036
+  PetaboxLoader3.resolve: 1261.788
+*/

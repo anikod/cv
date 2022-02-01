@@ -1,0 +1,723 @@
+/* BLOG ENTRIES */
+
+td.contentheading {
+    color: #042846;
+    color: #0A3496;
+    font-family: Verdana;
+    font-size: 18pt;
+    font-weight: normal;
+
+    margin: 0px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+td.contentheading h1,
+td.contentheading a:link,
+td.contentheading a:visited,
+td.contentheading a:hover,
+td.contentheading a.contentpagetitle:link,
+td.contentheading a.contentpagetitle:visited,
+td.contentheading a.contentpagetitle:hover {
+    border: 0px;
+    color: #042846;
+    color: #2d7295;
+    color: #245C77;
+    display: block;
+    font-family: Tahoma;    
+    font-size: 18pt;
+    font-weight: normal;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 2px;
+    margin-left: 4px;
+    margin-bottom: 6px;
+    border-bottom: dotted #245C77 1px;
+}
+
+/* BLOG ENTRIES */
+
+
+
+
+/* MULTIPART PAGES INDEXES */
+
+table.contenttoc {
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+table.contenttoc th {
+    text-align: center;
+    background: #EEEEEE;
+    border: 1px dotted black;
+    padding: 5px;
+}
+
+table.contenttoc td {
+    text-align: right;
+    background: #EEEEEE;
+    border: 0;
+    margin: 2;
+    padding: 10px 20px 30px 40px;
+    width: 200px;
+    padding: 5px;
+}
+
+.pagenavbar {
+    text-align:center;
+}
+
+/* INDEXES */
+
+
+
+
+/* TOP MENU */
+
+#ja-container3 ul.menu {
+        margin:0 auto;
+        padding-top: 1px;
+        width: 100%;
+        list-style:none;
+        text-align:left;
+    }
+
+#ja-container3 ul.menu li{
+                list-style:none;
+                display:block;
+                float:left;
+                line-height: 30px;
+                border: dotted #2d6c6d;
+                border-width: 0px 1px 0px 1px;
+                background:url(topmenu-background-.png) repeat-x;
+                height: 30px;
+                margin: 0 0px 0 0; /* between buttons */
+            }
+#ja-container3 ul.menu li a{
+                    display:block;
+                    float:left;
+                    color:#fff;
+                    -text-transform:uppercase;
+                    font-size: 12px;
+                    font-weight:bold;
+                    text-decoration:none;
+                    padding:0 25px;
+                    height:30px;
+                }
+
+#ja-container3 ul.menu li a span {
+    margin-right: 10px;
+}
+
+#ja-container3 ul.menu li a:hover,
+#ja-container3 ul.menu li a:focus {
+    color:#fff;
+    background:url(topmenu-background.png) repeat-x;
+                    }
+
+#ja-container3 ul.menu li.active a {
+                    display:block;
+                    float:left;
+                    background:url(topmenu-background.png) repeat-x;
+                    color:#fff;
+                    text-transform:uppercase;
+                    font-size:11px;
+                    font-weight:bold;
+                    text-decoration: underline;
+                    padding:0 25px;
+                }
+
+#ja-container3 ul.menu li a:hover.current{
+                        color:#fff;
+                    }
+
+/* TOP MENU */
+
+
+
+
+/* LEFT MENU */
+
+div.menu {
+    width: 200px;
+    text-align: left;
+    line-height: 2.0;
+    position: relative;
+    top: 30px;
+    left: 16px;
+    margin-left: 8px;
+    font-family: "Tahoma", "Arial";
+   }
+
+#ja-container2 ul.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+
+    }
+
+#ja-container2 ul.menu li {
+    margin: 0 !important;
+    margin-top: 2px;
+    padding: 0 !important;
+    padding-top: 14px;
+    list-style: disc url(arrow-left-menu.png) outside;
+    }
+
+#ja-container2 ul.menu li a {
+    font-size: 10pt;
+    padding-left: 2px;
+    padding-top: 2px;
+    display: block;
+    color: #859FCF;
+    color: #3a737e;
+    color: #35afc5;
+    color: #194e9e;
+    color: black;
+    color: #633509;
+    color: #195765;
+    text-decoration: none;
+    outline: none;
+    -padding-bottom: 2px;
+    -margin-bottom: 2px;
+    font-weight: bold;
+}
+
+#ja-container2 ul.menu li a span {
+    margin-right: 4px;
+}
+
+#ja-container2 ul.menu li a:hover,
+#ja-container2 ul.menu li a:focus {
+    text-decoration: none;
+}
+
+#ja-container2 ul.menu li.active a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* sub */
+
+#ja-container2 ul.menu li ul {
+    color: #859FCF;
+    color: #3a737e;
+    list-style: none;
+    font-weight: normal;
+    margin: 0;
+    padding:0;
+    margin-left: 0px !important;
+    padding-left: 15px !important;
+}
+
+#ja-container2 ul.menu li li {
+    font-size: 8pt;
+    font-weight: normal;
+    background: url(hdot2.gif) repeat-x bottom;
+    border: 0px;
+    list-style: disc url(indent1.png) outside;
+    margin: 0;
+    padding:0;
+    margin-left: 8px;
+    padding-left: 8px;
+}
+
+#ja-container2 ul.menu li li a {
+    color: #333333;
+    color: #859FCF;
+    color: #3a737e;
+    display: block;
+    margin: 0;
+    padding:0;
+}
+
+/* inactive menu item */
+#ja-container2 ul.menu li li a span {
+    color: #859FCF;
+    color: #3a737e;
+    font-size: 8pt;
+    font-weight: normal;
+    margin: 0;
+    padding:0;
+}
+
+#ja-container2 ul.menu li li a:hover span,
+#ja-container2 ul.menu li li a:active span,
+#ja-container2 ul.menu li li a:focus span {
+    color: #0A3496;
+    color: #086070;
+    text-decoration: underline;
+}
+
+#ja-container2 ul.menu li li.active a span {
+    color: #204264;
+    text-decoration: underline;
+}
+
+
+
+/* sub sub */
+
+#ja-container2 ul.menu li ul {
+    list-style: none;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+#ja-container2 ul.menu li li li {
+    margin: 0px;
+    padding: 0px;
+    background: none;
+}
+
+#ja-container2 ul.menu li li li a {
+    display: block;
+    background: none;
+}
+
+#ja-container2 ul.menu li li li a span {
+    padding-right: 24px;
+    font-size: 8pt;
+    color: #FF0000;
+    font-weight: normal;
+}
+
+/* inactive menu item */
+#ja-container2 ul.menu li li.active li a span {
+    font-size: 8pt;
+    color: #859FCF;
+    font-weight: normal;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+#ja-container2 ul.menu li li li a:hover span,
+#ja-container2 ul.menu li li li a:active span,
+#ja-container2 ul.menu li li li a:focus span {
+    color: #0A3496;
+}
+
+#ja-container2 ul.menu li li li.active a span {
+    color: #0A3496;
+    font-weight: normal;
+    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+/* LEFT MENU */
+
+
+
+
+/* PATHWAY MENU */
+
+.pathway {
+    text-align: left;
+    margin: 14px 0px 24px; 0px;
+    font-size: 11px;    
+    font-weight: bold;
+    color: #2d7295;
+    }
+
+span.dreadcrumbs_pathway {
+    width: 700px;
+    }
+
+a.pathway, a:link.pathway, a:visited.pathway, a:active.pathway {
+    color: #2d7295;
+    text-decoration: underline;
+    }
+
+a:hover.pathway, a:focus.pathway {
+    color: #2d7295;
+    text-decoration: underline;
+    }
+
+/* /PATHWAY MENU */
+
+
+
+
+
+/* MAINBODY */
+
+a:link,
+a:visited,
+a:active,
+a:hover {
+    color: #041B4F;
+}
+
+td.mainbody a:link,
+td.mainbody a:visited,
+td.mainbody a:hover {
+    text-decoration: underline;
+}
+
+td.mainbody a:hover {
+    border-bottom: 1px dashed;
+    text-decoration: none;
+}
+
+table.pagenav a:link,
+table.pagenav a:visited,
+table.pagenav a:hover,
+table.pagenav a:active,
+th.pagenav_prev a:link,
+th.pagenav_prev a:visited,
+th.pagenav_prev a:hover,
+th.pagenav_prev a:active {
+    border: none;
+    color: #041B4F;
+    color: #093AB0;
+    color: #041B4F;
+    display: block;
+    font-size: 10pt;
+    text-decoration: underline;
+}
+
+table.contentpaneopen a.readon:link,
+table.contentpaneopen a.readon:visited,
+table.contentpaneopen a.readon:active,
+table.contentpaneopen a.readon:hover {
+    border: none;
+    color: #041B4F;
+    color: #093AB0;
+    color: #041B4F;
+    display: block;
+    font-size: 9pt;
+    text-decoration: underline;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+td.minbody a:hover {
+    border-bottom: 1px dashed;
+    text-decoration: none;
+}
+
+
+table.contentpaneopen-sententia {
+    margin: 0px;
+    padding: 0px;
+}
+
+td.contentheading-sententia,
+td.contentheading-sententia a:link,
+td.contentheading-sententia a:visited,
+td.contentheading-sententia a:hover,
+.contentpagetitle-sententia {
+    color: #5383AA;
+    font-size: 8pt;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    margin-top: 4px;
+    padding-top: 4px;
+}
+
+/* Display News module CSS */
+div.contentpaneopen-sententia {
+    margin: 0px;
+    padding: 0px;
+}
+
+h2.contentheading-sententia,
+h2.contentheading-sententia a:link,
+h2.contentheading-sententia a:visited,
+h2.contentheading-sententia a:hover,
+.contentpagetitle-sententia { 
+    color: #5383AA;
+    font-size: 8pt;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    margin-top: 4px;
+    padding-top: 4px;
+}
+/* Display News module CSS */
+
+
+
+
+
+
+
+
+
+/* FOOTER2 MENU */
+
+td.menu-footer {
+    text-align: center;
+    background-color: #103357;
+    width: 970px;
+    }
+
+#ja-container4 ul.menu-footer {
+    margin: 0 auto;
+    list-style: none;
+    }
+
+#ja-container4 ul.menu-footer li{
+    list-style: none;
+    display: block;
+    float: left;
+    line-height: 14px;
+    border: solid #FFF;
+    border-width: 0px 1px 0px 1px;
+    height: 16px;
+    margin: 0 0px 0 0; /* between buttons */ 
+    }
+#ja-container4 ul.menu-footer li a{
+    display: block;
+    float: left;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 12px;
+    height: 16px;
+    }
+
+#ja-container4 ul.menu-footer li a span {
+    margin-right: 10px;
+    }
+
+#ja-container4 ul.menu-footer li a:hover,
+#ja-container3 ul.menu-footer li a:focus {
+    color: #fff;
+    text-decoration: underline;
+    }
+
+#ja-container4 ul.menu-footer li.active a {
+    display: block;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 0 20px;
+    }
+
+#ja-container4 ul.menu-footer li a:hover.current{
+    color:#fff;
+    }
+
+/* FOOTER2 MENU */
+
+
+
+
+/* TRY VIRTUEMART MENU */
+
+#vmMainPage {
+        font-size: 10pt;
+        font-weight: normal;
+    }
+
+#vmMainPage div.browseProductContainer  {
+-        width: 30%;
+        border: 1px solid #000;
+        font-size: 11pt;
+        font-weight: normal;
+    }
+
+#vmMainPage div.browseProductContainer h3 {
+        font-size: 10pt;
+        font-weight: normal;
+        font-decoration: none;
+    }
+
+
+
+/* VIRTUEMART MENU */
+
+
+/* MAINBODY */
+
+
+
+
+/* PRODCATS */
+
+div.prod {
+    color: #042846;
+    color: #0A3496;
+    font-family: Verdana;
+    font-size: 8 pt;
+    font-weight: normal;
+    border: #000000 dotted 1px;
+    margin: 4x;
+    padding: 4px;
+    text-decoration: none;
+    padding-left: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+div.prodcats a:link,
+div.prodcats a:visited,
+div.prodcats a:hover {
+    border: 0px;
+    color: #014250;
+    display: block;
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 8pt;
+    text-decoration: underline;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 14px;
+}
+
+div.prodcats a.sublevel:link,
+div.prodcats a.sublevel:visited,
+div.prodcats a.sublevel:hover {
+    border: 0px;
+    color: #042846;
+    display: block;
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 9pt;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 14px;
+}
+
+div.prodcats a.sublevel:link#active_menu,
+#active_menu div.prodcats a.sublevel:visited#active_menu,
+#active_menu a.sublevel:hover#active_menu {
+    color: #0A3496;
+    color: #03292a;
+    color: #086070;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 18pt;
+}
+
+/* PRODCATS */
+
+
+tr.sectiontableentry1 a:link,
+tr.sectiontableentry1 a:visited,
+tr.sectiontableentry1 a:hover,
+tr.sectiontableentry2 a:link,
+tr.sectiontableentry2 a:visited,
+tr.sectiontableentry2 a:hover {
+    border: 0px;
+    color: #014250;
+    display: block;
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 8pt;
+    text-decoration: underline;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 0px;
+}
+
+
+
+
+
+
+
+/* LIL-MENU */
+
+td.menu-lilmenu {
+        text-align: center;
+}
+
+#ja-container5 ul.menu-lilmenu {
+    margin: 0 auto;
+    list-style: none;
+    margin-left: 15px;
+    padding: 0px;
+    }
+
+#ja-container5 ul.menu-lilmenu li{
+    list-style: none;
+    display: block;
+    float: left;
+    line-height: 14px;
+    height: 16px;
+    margin: 0 14px 0 0; /* between buttons */
+    margin-left: 0px;
+            }
+#ja-container5 ul.menu-lilmenu li a{
+    display: block;
+    float: left;
+    color: #fff;
+    font-size: 10px;
+    font-weight: normal;
+    text-decoration: underline;
+    height: 16px;
+    margin-left: 0px;
+                }
+
+#ja-container5 ul.menu-lilmenu li a span {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#ja-container5 ul.menu-lilmenu li a:hover,
+#ja-container5 ul.menu-lilmenu li a:focus {
+    color: #fff;
+    text-decoration: underline;
+                    }
+
+#ja-container5 ul.menu-lilmenu li.active a {
+                    display: block;
+                    float: left;
+                    color: #fff;
+                    font-size: 10px;
+                    font-weight: normal;
+                    text-decoration: underline;
+                }
+
+#ja-container5 ul.-lilmenumenu li a:hover.current{
+                        color:#fff;
+                    }
+
+/* LIL-MENU */
+
+
+
+
+
+/* MAINBODY */
+
+
+
+/*
+     FILE ARCHIVED ON 03:51:51 Aug 13, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 18:08:15 Jan 31, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 88.66
+  exclusion.robots: 0.163
+  exclusion.robots.policy: 0.15
+  RedisCDXSource: 0.728
+  esindex: 0.011
+  LoadShardBlock: 62.759 (3)
+  PetaboxLoader3.datanode: 69.188 (4)
+  CDXLines.iter: 21.667 (3)
+  load_resource: 523.566
+  PetaboxLoader3.resolve: 481.981
+*/
