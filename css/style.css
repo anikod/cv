@@ -1,8 +1,8 @@
 body{
-    font-family: Verdana, serif;
-    font-size: 10pt;
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
 }
 
 .header {
@@ -120,6 +120,7 @@ article {
 .footer-left {
     padding: 2px;
     width: 70%;
+    font-family: 'Courier New', Courier, monospace;
     flex: 1 1 auto;
 }
 .footer-right {
@@ -134,8 +135,6 @@ article {
     width: 80px;
     height: auto;
 }
-
-
 .cv {
     float: right;
     position: relative;
