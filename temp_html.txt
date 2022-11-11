@@ -1,0 +1,18 @@
+
+// from HEAD: google fonts and fontAwesome connectors
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Ubuntu+Mono&display=swap"
+            rel="stylesheet"
+        />
+        <script
+            src="https://kit.fontawesome.com/17e7f4f6b1.js"
+            crossorigin="anonymous"
+        ></script>
+
