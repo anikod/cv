@@ -1,4 +1,7 @@
-const container = document.querySelector('.ani-container');
+// const container = document.querySelector('#ani-container');
+
+const container = document.querySelector('.body-container');
+
 const nameplate = document.querySelector('.ani-nameplate');
 const ascii = document.querySelector('.ascii_art');
 const myname = document.querySelector('#myname');
@@ -6,6 +9,7 @@ const mytitle = document.querySelector('#mytitle');
 const dosbox__shadow = document.querySelector('.dosbox__shadow');
 const header = document.querySelector('.dosbox-window__header');
 const contacts = document.querySelector('.dosbox__contacts');
+// const anicontainer = document.querySelector('')
 
 // const body = document.querySelector('body');
 
@@ -17,7 +21,16 @@ const contacts = document.querySelector('.dosbox__contacts');
 // });
 
 // console.log(`Height is: ${nameplate.offsetHeight}`);
-container.style.height = `${nameplate.offsetHeight * 1.2}px`;
+
+// container.style.height = `${nameplate.offsetHeight * 1.2}px`;
+
+// container.addEventListener('click', (evt) => {
+//     console.log(evt);
+// });
+
+contacts.addEventListener('click', (e) => {
+    
+}, true);
 
 
 container.addEventListener('mousemove', (evt) => {
@@ -25,7 +38,7 @@ container.addEventListener('mousemove', (evt) => {
     let xAxis = (window.innerWidth / 2 - evt.pageX) / 20;
     let yAxis = (window.innerHeight / 4 - evt.pageY) / 20;
     nameplate.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
-})
+});
 
 container.addEventListener('mouseenter', evt => {
     // nameplate.style.transition = 'none';
@@ -36,7 +49,7 @@ container.addEventListener('mouseenter', evt => {
     header.style.transform = 'translateZ(2px)';
     contacts.style.transform = 'translateZ(15px)';
     // dosbox__shadow.style.transform = 'translateZ(-100px)';
-})
+});
 
 container.addEventListener('mouseleave', evt => {
     nameplate.style.transition = 'all 0.5s ease';
@@ -46,4 +59,4 @@ container.addEventListener('mouseleave', evt => {
     mytitle.style.transform = 'translateZ(0px)';
     header.style.transform = 'translateZ(0px)';
     contacts.style.transform = 'translateZ(0px)';
-})
+});

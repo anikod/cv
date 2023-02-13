@@ -4,23 +4,23 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
-    <meta name="viewport" content="width=1170" />
-    <title>CV-2022</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta name="viewport" content="width=1170" /> -->
+    <title>CV-2023</title>
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" /> -->
 </head>
 
 <body>
     <div class="body-wrapper">
 
-        <div class="ani-container"></div>
+        <div class="ani-container" id="ani-container"></div>
         <!-- <div class="body-container" id="ani-container"> -->
         <div class="body-container ani-nameplate">
             <div class="dosbox-wrapper dosbox__shadow">
                 <div class="dosbox-window__header">
-                    <span class="bg-blue header">curriculum vitae</span>
+                    <span class="bg-blue header">curriculum vitae 2023</span>
                 </div>
                 <div class="dosbox-window bg-blue">
                     <div class="dosbox dosbox__border-blue">
@@ -138,23 +138,25 @@ tApjF  9g  J"   9M_ _m"    9%_ _*"   "#  gF  9_jNF
                     <div class="dosbox dosbox__border-blue">
                         <main class="dosbox__header">
                             <div class="dosbox__main-first">
-                                <div class="item" style="self-align: center;">
-                                    <h4>Skills</h4>
+                                <div class="item">
+                                    <h4 class="skills">Skills</h4>
+
+                                    <p>Last update: 2023.02</p>
 
                                     <ul class="courses">
-                                        <li>about 500 hours of self-education in the last 18 months;</li>
+                                        <li>about 800 hours of self-education in the last 24 months (tracked);</li>
                                         <li>codewars level 5 (starting from 8);</li>
                                         <li>English B1;</li>
                                         <li>blindtyping;</li>
                                     </ul>
 
-                                    <pre class="objectives" style="font-size: 1rem; width: 355px;">
+                                    <pre class="objectives">
 
   <b style="color: red;">═></b> ─┬─┬─┬─┬─ <b>JavaScript</b>
       │ │ │ └─ <b>node.js</b>
       │ │ │                 ┌─ <b>react</b>
       │ │ └─────────── <b style="color: green;">►</b> ───┤
-      │ │              <span style="color: gray;">↑</span>    └─ <b>vue</b>
+      │ │              <span style="color: gray;">↑</span>    └─ <b>typescript</b>
       │ └┬─ <b>HTML</b>       <span style="color: gray;">│</span>
       │  └─ <b>CSS</b>        <span style="color: gray;">└─ <span style="font-size: 0.75rem;">you are here</span></span>
       │
@@ -170,7 +172,7 @@ tApjF  9g  J"   9M_ _m"    9%_ _*"   "#  gF  9_jNF
 
                             <div class="dosbox__main-second">
                                 <div class="item">
-                                    <h4>Education</h4>
+                                    <h4 class="education">Education</h4>
 
                                     <ul style="list-style-type: none;">
                                         <li>Master of Management</li>
@@ -182,19 +184,40 @@ tApjF  9g  J"   9M_ _m"    9%_ _*"   "#  gF  9_jNF
 
 
                                     <h4 style="margin-top: 3rem;">Relevant courses and books</h4>
-
+                                    <p class="progress">[ completion level ] && Course_Name</p>
                                     <ul class="courses">
-                                        <li>[45% completed]: <a
+                                        <li><span class="progress">[ 5% ]</span> <a
+                                                href="https://www.udemy.com/course/react-tutorial-and-projects-course"
+                                                target="_new">React 18 Tutorial and Projects Course (2023)</a>
+                                            by John Smilga</li>
+
+                                        <li>[ 40% ] <a href="https://www.udemy.com/course/react-redux"
+                                                target="_new">Modern React with Redux [2023 Update]</a>
+                                            by Stephen Grider;</li>
+
+                                        <li>[ 15% ] <a
+                                                href="https://www.udemy.com/course/react-the-complete-guide-incl-redux"
+                                                target="_new">React - The Complete Guide (incl Hooks, React Router,
+                                                Redux</a>
+                                            by Maximilian Schwarzmüller;</li>
+
+                                        <li>[ 75% ] <a href="https://www.udemy.com/course/pro-react-redux"
+                                                target="_new">React + Redux - Профессиональная Разработка</a>
+                                            by Yurii Bura;</li>
+
+                                        <li>[ 80% ]: <a
                                                 href="https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced"
-                                                target="_new">JavaScript - The Complete Guide 2022 (Beginner + Advanced)
-                                                by Maximilian Schwarzmüller</a>
+                                                target="_new">JavaScript - The Complete Guide 2022 (Beginner +
+                                                Advanced)</a>
+                                            by Maximilian Schwarzmüller;
                                         </li>
-                                        <li>[15% completed]: <a
-                                                href="https://www.udemy.com/course/nodejs-the-complete-guide/"
+                                        <li>[ 15% ]: <a href="https://www.udemy.com/course/nodejs-the-complete-guide/"
                                                 target="_new">NodeJS - The Complete Guide (MVC, REST APIs, GraphQL,
-                                                Deno) by Maximilian Schwarzmüller</a></li>
-                                        <li>[97.5% completed]: Code Complete by Steve McConnell;</li>
-                                        <li>[40% completed]: CSS: The Definitive Guide by Eric A. Meyer;</li>
+                                                Deno)</a>
+                                            by Maximilian Schwarzmüller</li>
+
+                                        <li>[ 97.5% ]: Code Complete by Steve McConnell;</li>
+                                        <li>[ 40% ]: CSS: The Definitive Guide by Eric A. Meyer;</li>
 
 
 
@@ -212,7 +235,9 @@ tApjF  9g  J"   9M_ _m"    9%_ _*"   "#  gF  9_jNF
                                     <ul class="courses">
                                         <li>2022: <a href="https://anikod.github.io/cell_automata/">Cell Automaton</a>:
                                             plain Javascript (in progress);
-                                            <p>Cell Atomaton is ...</p>
+                                            <p>Cell Atomaton is a discrete model of computation studied in automata
+                                                theory (<a href="https://en.wikipedia.org/wiki/Cellular_automaton"
+                                                    targer="_new">@wikipedia</a>). </p>
                                         </li>
                                         <li>2022: <a href="https://anikod.github.io/calculator">Calculator</a>: plain
                                             Javascript;</li>
@@ -231,12 +256,11 @@ tApjF  9g  J"   9M_ _m"    9%_ _*"   "#  gF  9_jNF
                                 <div class="item">
                                     <h4>About me</h4>
                                     <p>Hello! </p>
-                                    <p>My name is Andrey, I'm a system administrator with about 15 years of experience
-                                        in companies up to 100 computers.</p>
-                                    <p>Last year and a half I learn front-end development. I choosed to move
-                                        down-upwards, so I started with plain JavaScript.</p>
-                                    <p>In september 2022 I moved to Cyprus with my wife and little daughter. Working
-                                        permission is on the way.</p>
+                                    <p>My name is Andrei, I'm a (former) systems administrator with about 15 years of
+                                        experience in companies up to 100 computers.</p>
+                                    <p>Last two years I've been learning front-end development, started with plain
+                                        JavaScript, and now I've been digging into React.js.</p>
+                                    <p>In september 2022 I have moved to Cyprus with my wife and little daughter.</p>
 
                                 </div>
                             </div>

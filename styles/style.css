@@ -26,7 +26,7 @@ body {
     /* font-family: 'Press Start 2P', 'ModernDOS916' 'Share Tech Mono', 'Ubuntu Mono', Consolas, 'Courier New',  monospace; */
     font-family: 'ModernDOS916', 'Press Start 2P', 'NewDOS', 'ModernDOS916', 'Consolas', monospace;
     /* font-size: 1rem; */
-    font-size: 1em;
+    font-size: 1rem;
     /* line-height: 1em; */
     margin: 0 auto;
     /* padding: 10px; */
@@ -241,7 +241,7 @@ body {
     /* flex-basis: 125px; */
     /* background-color: #333; */
     align-self: center;
-    font-size: 5.5pt;
+    font-size: 9.0px;
     font-family: 'Courier New', 'Consolas', monospace;
     margin: 1rem;
 }
@@ -378,15 +378,15 @@ body {
 
 .item {
     font-family: Verdana, sans-serif;
-    font-size: 0.80em;
+    font-size: 0.80rem;
     text-align: left;
     padding: 0 1rem 1rem 1rem;
 }
 
 .item h4 {
     border-bottom: 1px solid;
-    font-size: 1.2em;
-    text-indent: 0.25em;
+    font-size: 1.2rem;
+    text-indent: 0.25rem;
     margin-bottom: 1.75rem;
     padding-bottom: 0.2rem;
 }
@@ -395,6 +395,8 @@ pre.objectives {
     /* font-family: 'ModernDOS916', 'Consolas', monospace; */
     font-family: 'Courier New', Courier, monospace;
     margin: 0 auto;
+    /* style="font-size: 1rem; width: 355px;" */
+
 }
 
 .border-bottom {
@@ -408,6 +410,7 @@ ul.courses {
 
 ul.courses li {
     padding-bottom: 0.5rem;
+    line-height: 1.1rem;
 }
 
 ul.courses li p {
@@ -417,6 +420,10 @@ ul.courses li p {
 
 p {
     margin-left: 0.5rem;
+}
+
+.progress {
+    /* font-size: 0.75em; */
 }
 
 a,
@@ -449,8 +456,173 @@ a:visited {
     transform-style: preserve-3d;
 }
 
-.header, .dosbox-window__header {
+.header,
+.dosbox-window__header {
     /* translate: 100px; */
     z-index: 10;
     /* transform-style: none !important; */
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+
+    body {
+        font-size: 0.9rem;
+    }
+
+    .body-wrapper {
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 980px;
+    }
+
+
+    .body-container {
+        /* margin: 1.25rem; */
+        margin: 0.75rem;
+        flex: 0 1 auto;
+    }
+
+
+
+
+    .dosbox-wrapper {}
+
+    .dosbox-window__header {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        /* min-width: 440px; */
+        min-width: 360px;
+    }
+
+    .dosbox-window__header span {
+        color: #ddd;
+        padding: 0 0.6rem;
+        line-height: 1.5rem;
+        font-family: 'Press Start 2P', 'ModernDOS916';
+        font-size: 0.6rem;
+        letter-spacing: 0.1rem;
+
+    }
+
+
+    .dosbox-window {
+        padding: 10px;
+        color: #ddd;
+        /* min-width: 390px; */
+        min-width: 330px;
+    }
+
+    .dosbox {
+        text-align: center;
+    }
+
+    .dosbox__shadow {
+        /* box-shadow: 1.2em 1.6em 2px rgba(0, 0, 0, 0.6); */
+        /* box-shadow: 0.5rem 0.75rem 2px rgba(0, 0, 0, 0.6); */
+    }
+
+
+
+    .dosbox__main-first,
+    .dosbox__main-second,
+    .dosbox__main-third,
+    .dosbox__main-fourth {
+        flex: 1 0 335px;
+
+    }
+
+    .item {
+        font-family: Verdana, sans-serif;
+        /* font-size: 0.80em; */
+        text-align: left;
+        /* padding: 0.1rem; */
+        margin: 0.33rem 1.0rem 0 0.5rem;
+        padding: 0.1rem 0.75rem 0 0;
+        line-height: 1.0rem;
+
+    }
+
+    .item h4 {
+        font-family: 'ModernDOS916', monospace;
+        /* font-size: 10pt; */
+        border-bottom: 1px solid;
+        font-size: 1.5rem;
+        text-indent: 0.5rem;
+        /* margin-bottom: 0; */
+        /* margin-bottom: 1.25rem; */
+        /* margin-right: 0.5rem; */
+        /* margin: 1.5rem 0.75rem 1rem 0; */
+        /* width:95%; */
+    }
+
+    h4.skills {
+        font-family: 'ModernDOS916', monospace;
+        margin-top: 1.55rem;
+
+    }
+
+    h4.education {
+        margin-top: 2rem;
+    }
+
+
+
+    .dosbox__contacts {
+        font-weight: 100;
+        /* width: 100%; */
+        text-align: justify;
+        margin: 0 auto;
+        /* background-color: #red; */
+        /* border: 1px solid red; */
+    }
+
+    .dosbox__contacts tr td:first-child {
+        /* text-align: center; */
+        /* margin: 0 auto; */
+        /* width: 3rem; */
+        /* background-color: red;  */
+    }
+
+    .dosbox__contacts img {
+        display: block;
+        /* margin: 0 1.0rem 0 0; */
+        margin: 0 auto;
+        width: 0.8rem;
+        padding-right: 0.5rem;
+        /* text-align: center; */
+        /* width: 5rem; */
+        /* background-color: red;  */
+    }
+
+    .dosbox__contacts tr td:last-child {
+        /* text-align: center; */
+        padding-left: 0.5rem;
+        /* width: 30rem; */
+        /* background-color: red;  */
+    }
+
+    pre.objectives {
+        /* font-family: 'Press Start 2P', 'ModernDOS916', 'Consolas', monospace; */
+        font-family: 'Courier New', Courier, monospace;
+        margin: 0 auto;
+        margin-left: -10px;
+        line-height: 1.rem;
+        ;
+    }
 }
