@@ -28,9 +28,9 @@ const contacts = document.querySelector('.dosbox__contacts');
 //     console.log(evt);
 // });
 
-contacts.addEventListener('click', (e) => {
+// contacts.addEventListener('click', (e) => {
     
-}, true);
+// }, true);
 
 
 container.addEventListener('mousemove', (evt) => {
